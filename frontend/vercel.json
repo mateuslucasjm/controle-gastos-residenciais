@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://crontole-gastos.runasp.net/api/:path*"
+    }
+  ]
+}
