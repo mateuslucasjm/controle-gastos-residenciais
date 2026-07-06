@@ -1,0 +1,47 @@
+.person-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.person-info svg {
+  margin-left: 8px;
+}
+
+.person-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.person-age {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--sidebar-border);
+  transition: var(--transition);
+  padding: 10px 0;
+}
+
+.list-item:hover {
+  background: var(--hover);
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ef4444;
+  transition: var(--transition);
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+  color: #dc2626;
+}

@@ -1,0 +1,15 @@
+:root {
+  --bg: #ffffff;
+  --sidebar-border: #e5e7eb;
+
+  --text: #111827;
+  --muted: #6b7280;
+
+  --hover: rgba(59, 130, 246, 0.06);
+  --active: rgba(59, 130, 246, 0.12);
+
+  --accent: #2563eb;
+
+  --radius: 10px;
+  --transition: 0.2s ease;
+}
