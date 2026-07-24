@@ -1,4 +1,4 @@
-import DashboardCard from "@/components/DashboardCard";
+import DashboardCard from "@/components/Dashboard/Card";
 import { formatCurrency } from "@/utils/formatCurrency";
 import {
   FaArrowTrendDown,

@@ -1,7 +1,7 @@
-import TextTitle from "@/components/TexTitle";
+import TextTitle from "@/components/Layout/TextTitle";
+import PeopleForm from "@/components/People/Form";
+import PeopleList from "@/components/People/List";
 import { usePeople } from "@/hooks/usePeople";
-import PeopleForm from "@/components/PeopleForm";
-import PeopleList from "@/components/PeopleList";
 
 export default function PeoplePage() {
   const { people, form, loading, error, handleChange, create, removePerson } =

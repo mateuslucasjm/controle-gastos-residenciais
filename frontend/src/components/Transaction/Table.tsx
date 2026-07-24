@@ -1,6 +1,6 @@
 import type { TransactionWithPerson } from "@/hooks/useTransaction";
 import { TransactionType } from "@/types/transaction";
-import "./TransactionTable.css";
+import "./Table.css";
 
 type Props = {
   transactions: TransactionWithPerson[];

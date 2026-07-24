@@ -177,3 +177,7 @@
   font-size: 0.95rem;
   color: #9ca3af;
 }
+
+.dashboard-loading {
+  color: var(--accent) !important;
+}

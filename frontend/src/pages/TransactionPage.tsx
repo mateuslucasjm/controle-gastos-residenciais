@@ -1,6 +1,6 @@
-import TextTitle from "@/components/TexTitle";
-import TransactionForm from "@/components/TransactionForm";
-import TransactionTable from "@/components/TransactionTable";
+import TextTitle from "@/components/Layout/TextTitle";
+import TransactionForm from "@/components/Transaction/Form";
+import TransactionTable from "@/components/Transaction/Table";
 import { useTransactions } from "@/hooks/useTransaction";
 import { FaExchangeAlt } from "react-icons/fa";
 
@@ -31,7 +31,6 @@ export default function TransactionPage() {
 
           <TransactionTable transactions={transactions} />
         </section>
-
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import type { Person } from "@/types/person";
 import { FaTrash, FaUser, FaUsers } from "react-icons/fa";
-import "./PeopleList.css";
+import "./List.css";
 
 type Props = {
   people: Person[];
